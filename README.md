@@ -7,6 +7,13 @@ A brief description of my journey switching from Java to Kotlin which I started 
 - IntelliJ IDEA
 - a lot of motivation
 
+After the Kotlin Koans I extended my personal setup with the following:
+- Windows WSL with the current Ubuntu version
+- [SDK Man](https://sdkman.io/)
+- [Micronaut](https://micronaut.io/)
+
+To be honest, there still seems to be a little bit of configuration problems, which I will investigate further so that I soon can start with my Kotlin/Micronaut project.
+
 # My first guides to Kotlin
 ## Kotlin Lang
 Naturally I typed "Kotlin" into google and found the homepage [Kotlin Lang](https://kotlinlang.org).   
