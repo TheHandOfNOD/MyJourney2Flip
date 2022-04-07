@@ -37,6 +37,9 @@ I also found the (Kotlin Tutorial)[https://www.youtube.com/watch?v=HcFY9NSgXkk&l
 A nice channel which is in German which means I do not have to listen to an indian guy talking the indian version of english. (note: I am not against indian people, but with time for me personally it's to exhausting listening to them, because it's quite hard to understand)
 
 ## Micronaut
+https://micronaut.io/learn/
+
+
 
 # Angular
 
