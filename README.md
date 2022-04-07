@@ -15,7 +15,12 @@ After the Kotlin Koans I extended my personal setup with the following:
 - [SDK Man](https://sdkman.io/)
 - [Micronaut](https://micronaut.io/)
 
-To be honest, there still seems to be a little bit of configuration problems, which I will investigate further so that I soon can start with my Kotlin/Micronaut project.
+To be honest, there still seems to be a little bit of configuration problems, which I will investigate further so that I soon can start with my Kotlin/Micronaut project. 
+## Configuring Ubuntu
+After solving the first issues with SDK MAN (a restart did it ... like always) I started to configure Ubuntu.   
+### Git
+First, naturally I installed and configured git. 
+I connected my local repository with the one in github.
 
 # My first guides to Kotlin
 ## Kotlin Lang
