@@ -1,4 +1,7 @@
-# MyJourney2Kotlin
+# MyJourney 2 Flip
+After several years working for UNiQUARE, which is a great software development company it was time to try something new.
+Luckily I saw the chance given by Corona and Flip found me.
+
 A brief description of my journey switching from Java to Kotlin which I started because it's time to change my employer and start an adventure.
 
 # My (personal) Setup
