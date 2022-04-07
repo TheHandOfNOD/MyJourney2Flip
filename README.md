@@ -22,6 +22,9 @@ After solving the first issues with SDK MAN (a restart did it ... like always) I
 First, naturally I installed and configured git. 
 I connected my local repository with the one in github.
 
+# Hexagonal architecture
+https://github.com/jorgetovar/hexagonal-architecture-java
+
 # My first guides to Kotlin
 ## Kotlin Lang
 Naturally I typed "Kotlin" into google and found the homepage [Kotlin Lang](https://kotlinlang.org).   
@@ -32,5 +35,9 @@ Since I am a developer who loves good documentation (I know this is rare), I sta
 ## Youtube
 I also found the (Kotlin Tutorial)[https://www.youtube.com/watch?v=HcFY9NSgXkk&list=PLNmsVeXQZj7rylgyThgUldHG8KE6Nbc1O] channel on Youtube.  
 A nice channel which is in German which means I do not have to listen to an indian guy talking the indian version of english. (note: I am not against indian people, but with time for me personally it's to exhausting listening to them, because it's quite hard to understand)
+
+## Micronaut
+
+# Angular
 
 
