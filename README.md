@@ -21,7 +21,7 @@ After solving the first issues with SDK MAN (a restart did it ... like always) I
 ### Git
 First, naturally I installed and configured git. 
 I connected my local repository with the one in github.
-Unfortunately I have to connect via SSH so I will configure this tomorrow.
+Connection via SSH to GitHub is now established and I can begin to create branches for my features.
 
 # Hexagonal architecture
 https://github.com/jorgetovar/hexagonal-architecture-java
