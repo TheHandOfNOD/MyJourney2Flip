@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyChildTracker.iml" filepath="$PROJECT_DIR$/.idea/modules/MyChildTracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyChildTracker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyChildTracker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyChildTracker.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyChildTracker.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MyJourney2Flip.iml" filepath="$PROJECT_DIR$/.idea/MyJourney2Flip.iml" />
     </modules>
   </component>

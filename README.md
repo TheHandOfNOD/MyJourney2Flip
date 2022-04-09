@@ -1,47 +1,50 @@
 # MyJourney 2 Flip
 After several years working for UNiQUARE, which is a great software development company it was time to try something new.
-Luckily I saw the chance given by Corona and Flip found me.
-
-A brief description of my journey switching from Java to Kotlin which I started because it's time to change my employer and start an adventure.
+Luckily I saw the chance given by Corona and Flip found me. More is coming soon ... stay tuned!
 
 # My (personal) Setup
-- Dell Notebook
-- not much time
-- IntelliJ IDEA
-- a lot of motivation
+- Dell Notebook (Inspiron 7786)
+- not much time 'cause I have a job, child, girlfriend and I am building a house
+- IntelliJ IDEA Community Edition (not the most actual because plugins won't work everytime with the newest)
+- a lot of motivation because I love it when something new is happening.
+
+## The story (all the up and downs)
+With a lot of motivation I tried to think of an example project which would make sense to implement
+and where I would be able to use a setup which is quite similar to the one I will use at my future job.
 
 After the Kotlin Koans I extended my personal setup with the following:
 - Windows WSL with the current Ubuntu version
 - [SDK Man](https://sdkman.io/)
 - [Micronaut](https://micronaut.io/)
 
-To be honest, there still seems to be a little bit of configuration problems, which I will investigate further so that I soon can start with my Kotlin/Micronaut project. 
-## Configuring Ubuntu
-After solving the first issues with SDK MAN (a restart did it ... like always) I started to configure Ubuntu.   
-### Git
-First, naturally I installed and configured git. 
-I connected my local repository with the one in github.
-Connection via SSH to GitHub is now established and I can begin to create branches for my features.
+There were some configuration problems, but a reboot helped a lot and so I am able to continue.
 
-# Hexagonal architecture
+First, I installed and configured git.
+I connected my local repository with the one in github.
+GitHub (my last push was some years ago) changed to SSH only and so I had to create a key for Windows and Ubuntu.
+
+Connection via SSH to GitHub is now established and I can begin to create branches for my features.
+I executed the command for the micronaut project setup with kotlin and gradle and I now have the basis of my project created.
+
+I think that additional to that project I will launch some experimental "projects" just to try some things out.
+
+# Helpful links and documentation
+## Hexagonal architecture
 https://github.com/jorgetovar/hexagonal-architecture-java
 
-# My first guides to Kotlin
 ## Kotlin Lang
 Naturally I typed "Kotlin" into google and found the homepage [Kotlin Lang](https://kotlinlang.org).   
 After reading some lines I installed the recommended IDE IntelliJ IDEA and found the "Kotlin Koans" which I use to start the journey.
 
 Since I am a developer who loves good documentation (I know this is rare), I started to read since I want to know the theory behind Kotlin also.
 
-## Youtube
+### Youtube
 I also found the (Kotlin Tutorial)[https://www.youtube.com/watch?v=HcFY9NSgXkk&list=PLNmsVeXQZj7rylgyThgUldHG8KE6Nbc1O] channel on Youtube.  
 A nice channel which is in German which means I do not have to listen to an indian guy talking the indian version of english. (note: I am not against indian people, but with time for me personally it's to exhausting listening to them, because it's quite hard to understand)
 
 ## Micronaut
 https://micronaut.io/learn/
 
-
-
-# Angular
+## Angular
 
 
