@@ -34,6 +34,8 @@ After additional research I found the following courses:
 - [Developing Android Apps with Kotlin](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)
 - [Advanced Android with Kotlin](https://www.udacity.com/course/advanced-android-with-kotlin--ud940)
 
+I will now complete these courses at first and then I will start developing my own personal full stack project.
+
 # Helpful links and documentation
 ## Hexagonal architecture
 https://github.com/jorgetovar/hexagonal-architecture-java
