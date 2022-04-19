@@ -4,5 +4,13 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FunWithGradle.app" target="11" />
+      <module name="FunWithGradle.app.main" target="11" />
+      <module name="FunWithGradle.app.test" target="11" />
+      <module name="MyChildTracker" target="11" />
+      <module name="MyChildTracker.main" target="11" />
+      <module name="MyChildTracker.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

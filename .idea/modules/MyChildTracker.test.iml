@@ -1,4 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module version="4">
+<module external.linked.project.id="MyChildTracker:test" external.linked.project.path="$MODULE_DIR$/../../MyChildTracker" external.root.project.path="$MODULE_DIR$/../../MyChildTracker" external.system.id="GRADLE" external.system.module.group="child.tracker" external.system.module.type="sourceSet" external.system.module.version="0.1" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files -java-parameters" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../MyChildTracker/build/classes/kotlin/test" />
+          <option name="classpath" value="$MODULE_DIR$/../../MyChildTracker/build/resources/main;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut.test/micronaut-test-junit5/3.1.1/a8dc6d19a8e21fcc12f7d405a9c38bc3a82a047a/micronaut-test-junit5-3.1.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-client/3.4.1/765b6c0ceae5ee09e839c5b592ff3f128399e284/micronaut-http-client-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-server-netty/3.4.1/c97435d3d7b0a374490b6824d80865edf2452c97/micronaut-http-server-netty-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-netty/3.4.1/ad3e8125535b5144bc1eb0e10c075d2cb1d1da88/micronaut-http-netty-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-server/3.4.1/9bb1767c8a865b0b15f96e17ec2fc3c580ff4c1/micronaut-http-server-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-websocket/3.4.1/ca1607117c1572772a614e79434035f01de8c26f/micronaut-websocket-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-client-core/3.4.1/9c8f896f1354db60b849bb6db405196584374dac/micronaut-http-client-core-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-runtime/3.4.1/191c1204a0fb946e5a7b05bab87814c074f48f71/micronaut-runtime-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-validation/3.4.1/2301a0347e0aede69d3fe991540e16e51e4ae995/micronaut-validation-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut.test/micronaut-test-core/3.1.1/9496874766a2b60e5efaa785c65a92da3facfe9a/micronaut-test-core-3.1.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-jackson-databind/3.4.1/e2d5cef03c6f56d1bb7b4369b232b362dd60373b/micronaut-jackson-databind-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-jackson-core/3.4.1/2c65c8b964b470f4e707d28846aa759335610d32/micronaut-jackson-core-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-json-core/3.4.1/ee74b40ce1cb39304b38a23affdc3c0431ec99fd/micronaut-json-core-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-context/3.4.1/7b1bf40692e7954004fcb3251a6100deb5538f71/micronaut-context-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-aop/3.4.1/ead49296561d04dda6411facedf72c0681614829/micronaut-aop-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-router/3.4.1/b25a3adb61099f5a35b9f988cfaae5c258cf436b/micronaut-router-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http/3.4.1/782d84abb30c7bdf795e291eceaa0ef9c86edb42/micronaut-http-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-buffer-netty/3.4.1/54556061df2668efd350e433f4aad4db6d80beed/micronaut-buffer-netty-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut.kotlin/micronaut-kotlin-runtime/3.2.2/382ffda2eaea759412e95e58c1abd6bfbe5d4115/micronaut-kotlin-runtime-3.2.2.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-inject/3.4.1/49f63eb3385aa78eb3e7ac1b9ea4f618a017330/micronaut-inject-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.0.0/f3cd84cc45f583a0fdc42a8156d6c5b98d625c1a/jakarta.annotation-api-2.0.0.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.10/1cbe9c92c12a94eea200d23c2bbaedaf3daf5132/kotlin-reflect-1.6.10.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.10/e80fe6ac3c3573a80305f5ec43f86b829e8ab53d/kotlin-stdlib-jdk8-1.6.10.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.8.2/32c8b8617c1342376fd5af2053da6410d8866861/junit-platform-commons-1.8.2.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.2/4c21029217adf07e4c0d0c5e192b6bf610c94bdc/junit-jupiter-api-5.8.2.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.graalvm.buildtools/junit-platform-native/0.9.11/63312d0a333915fdc9c9a36aabb541806895a0fd/junit-platform-native-0.9.11.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.13.2/95f59cf63c3aadc1549578254af839a9c42ae84f/jackson-datatype-jdk8-2.13.2.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.13.2/cddd9380efd4b81ea01e98be8fbdc9765a81793b/jackson-datatype-jsr310-2.13.2.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.2.2/ffeb635597d093509f33e1e94274d14be610f933/jackson-databind-2.13.2.2.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.2/a6a0e0620d51833feffc67bccb51937b2345763/jackson-core-2.13.2.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.2/ec18851f1976d5b810ae1a5fcc32520d2d38f77a/jackson-annotations-2.13.2.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.73.Final/d1afa6876c3d3bdbdbe5127ddd495e6514d6e600/netty-handler-proxy-4.1.73.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.73.Final/eb145bc31fd32a20fd2a3e8b30736d2e0248b0c/netty-codec-http2-4.1.73.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.73.Final/1ceeac4429b9bd517dc05e376a144bbe6b6bd038/netty-codec-http-4.1.73.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.73.Final/1a2231c0074f88254865c3769a4b5842939ea04d/netty-handler-4.1.73.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.73.Final/cefa44d8f5dcaab21179d945f12b6c6d7325cce9/netty-codec-socks-4.1.73.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.73.Final/9496a30a349863a4c6fa10d5c36b4f3b495d3a31/netty-codec-4.1.73.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.73.Final/abb155ddff196ccedfe85b810d4b9375ef85fcfa/netty-transport-4.1.73.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.73.Final/244a569c9aae973f6f485ac9801d79c1eca36daa/netty-buffer-4.1.73.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core-reactive/3.4.1/3c81abfa01b0a31fc7012537a134e224665ffdb4/micronaut-core-reactive-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core/3.4.1/ebd7176aa002f60437069006bf9c130e5ccee4de/micronaut-core-3.4.1.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.29/e56bf4473a4c6b71c7dd397a833dce86d1993d9d/slf4j-api-1.7.29.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.30/8fde7fe2586328ac3c68db92045e1c8759125000/snakeyaml-1.30.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/cb855558e6271b1b32e716d24cb85c7f583ce09e/validation-api-2.0.1.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.10/e1c380673654a089c4f0c9f83d0ddfdc1efdb498/kotlin-stdlib-jdk7-1.6.10.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.10/b8af3fe6f1ca88526914929add63cf5e7c5049af/kotlin-stdlib-1.6.10.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.10/c118700e3a33c8a0d9adc920e9dec0831171925/kotlin-stdlib-common-1.6.10.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.73.Final/bfe83710f0c1739019613e81a06101020ca65def/netty-resolver-4.1.73.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.73.Final/27731b58d741b6faa6a00fa3285e7a55cc47be01/netty-common-4.1.73.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-classes/2.0.46.Final/9937a832d9c19861822d345b48ced388b645aa5f/netty-tcnative-classes-2.0.46.Final.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar;C:/Users/Dan/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/4c28afe1991a941d7702fe1362c365f0a8641d1e/jakarta.inject-api-2.0.1.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="moduleName" value="MyChildTracker" />
+          <option name="jvmTarget" value="11" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../MyChildTracker/build/classes/java/main" />
+              <option value="$MODULE_DIR$/../../MyChildTracker/build/classes/kotlin/main" />
+              <option value="$MODULE_DIR$/../../MyChildTracker/build/tmp/kapt3/classes/main" />
+              <option value="$MODULE_DIR$/../../MyChildTracker/build/libs/MyChildTracker-0.1.jar" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.6" />
+          <option name="apiVersion" value="1.6" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.allopen:annotation=io.micronaut.aop.Around" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.6.10/88f2073f4020cdb83132cfe940ceb9a60aba54ea/kotlin-compiler-embeddable-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.6.10/dbe683647dcb04cda92fe4423acb741a2f144a69/kotlin-scripting-jvm-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.6.10/b3b71fd93878f2b4f19d099ac6430c67549a1c77/kotlin-scripting-common-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.10/1cbe9c92c12a94eea200d23c2bbaedaf3daf5132/kotlin-reflect-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.10/b8af3fe6f1ca88526914929add63cf5e7c5049af/kotlin-stdlib-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.6.10/2c8ba59185f5857a29833856d5e03e03755731a7/kotlin-gradle-plugin-api-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-model/1.6.10/e90218f795c40554e4994b3b81e73fa41209e2f5/kotlin-gradle-plugin-model-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.10/c118700e3a33c8a0d9adc920e9dec0831171925/kotlin-stdlib-common-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.6.10/d0a7ff2e2500ef497ed0214ae40ad3c8387a6164/kotlin-script-runtime-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.6.10/a56d79bcbea411fa6058e4ecffc2de73e742bd2a/kotlin-daemon-embeddable-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.6.0/330f2244e9030119ab3030fc3fededc86713d9cc/jna-5.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-native-utils/1.6.10/dd39b79ad4d789c066cc5a62d8dde7a21f1d3ef8/kotlin-native-utils-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-project-model/1.6.10/1c821660ccd0c89a669fd6cd7cda70afe388c2e5/kotlin-project-model-1.6.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-util-io/1.6.10/e8557b2856d4fa4d49f0a5af9b5cbf85a009ca7c/kotlin-util-io-1.6.10.jar" />
+              <option value="$KOTLIN_BUNDLED$/lib/allopen-compiler-plugin.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../MyChildTracker/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../MyChildTracker/build/generated/source/kapt/test" />
+    <content url="file://$MODULE_DIR$/../../MyChildTracker/build/generated/source/kaptKotlin/test" />
+    <content url="file://$MODULE_DIR$/../../MyChildTracker/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../MyChildTracker/src/test/kotlin" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="MyChildTracker.main" />
+    <orderEntry type="module-library">
+      <library name="Gradle: kaptGeneratedClasses">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../MyChildTracker/build/tmp/kapt3/classes/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: io.micronaut.test:micronaut-test-junit5:3.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-http-client:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-http-server-netty:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-runtime:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-validation:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-jackson-databind:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut.kotlin:micronaut-kotlin-runtime:3.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-inject:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.annotation:jakarta.annotation-api:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.graalvm.buildtools:junit-platform-native:0.9.11" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut.test:micronaut-test-core:3.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-websocket:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-http-client-core:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.73.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-http-netty:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-http-server:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.73.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-core:3.4.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.7.29" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-context:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-aop:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-http:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-core-reactive:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.validation:validation-api:2.0.1.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-jackson-core:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.13.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.30" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.inject:jakarta.inject-api:2.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.73.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.73.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.73.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.73.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.73.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-buffer-netty:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.73.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-router:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.73.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.micronaut:micronaut-json-core:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.13.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.13.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.73.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-tcnative-classes:2.0.46.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.13.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: ch.qos.logback:logback-classic:1.2.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.typesafe:config:1.4.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.projectreactor:reactor-core:3.4.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-api:1.7.32" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: ch.qos.logback:logback-core:1.2.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-console:1.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-launcher:1.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter:5.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-reporting:1.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.8.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.8.2" level="project" />
+  </component>
   <component name="TestModuleProperties" production-module="MyChildTracker.main" />
 </module>
