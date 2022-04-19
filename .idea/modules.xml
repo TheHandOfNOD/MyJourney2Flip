@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyChildTracker.iml" filepath="$PROJECT_DIR$/.idea/modules/MyChildTracker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyChildTracker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyChildTracker.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyChildTracker.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyChildTracker.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/MyJourney2Flip.iml" filepath="$PROJECT_DIR$/.idea/MyJourney2Flip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello Kotlin/Hello Kotlin.iml" filepath="$PROJECT_DIR$/Hello Kotlin/Hello Kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kotlin Bootcamp/Kotlin Bootcamp.iml" filepath="$PROJECT_DIR$/Kotlin Bootcamp/Kotlin Bootcamp.iml" />
     </modules>
   </component>
 </project>
