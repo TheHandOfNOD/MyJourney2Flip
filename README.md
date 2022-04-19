@@ -19,7 +19,7 @@ After the Kotlin Koans I extended my personal setup with the following:
 
 There were some configuration problems, but a reboot helped a lot and so I am able to continue.
 
-First, I installed and configured git.
+First, I installed and configured *git*.
 I connected my local repository with the one in github.
 GitHub (my last push was some years ago) changed to SSH only and so I had to create a key for Windows and Ubuntu.
 
@@ -27,6 +27,12 @@ Connection via SSH to GitHub is now established and I can begin to create branch
 I executed the command for the micronaut project setup with kotlin and gradle and I now have the basis of my project created.
 
 I think that additional to that project I will launch some experimental "projects" just to try some things out.
+
+### The Google Kotlin Course
+After additional research I found the following courses:
+- [Kotlin Bootcamp for Programmers](https://classroom.udacity.com/courses/ud9011)
+- [Developing Android Apps with Kotlin](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)
+- [Advanced Android with Kotlin](https://www.udacity.com/course/advanced-android-with-kotlin--ud940)
 
 # Helpful links and documentation
 ## Hexagonal architecture
@@ -46,5 +52,8 @@ A nice channel which is in German which means I do not have to listen to an indi
 https://micronaut.io/learn/
 
 ## Angular
+
+## Gradle
+https://gradle.org/
 
 
