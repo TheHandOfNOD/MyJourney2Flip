@@ -19,7 +19,12 @@ fun shouldChangeWater(
     day: String, //it's good practice to place arguments without default value at first
     temperature: Int = 22,
     dirty: Int = 20) : Boolean {
-    return true
+    return when {
+        temperature > 30 -> true
+        dirty > 30 -> true
+        day == "Sunday" -> true
+        else -> false
+    }
 }
 
 fun feedTheFish() {
