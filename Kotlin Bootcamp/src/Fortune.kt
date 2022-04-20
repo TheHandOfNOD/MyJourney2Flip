@@ -1,10 +1,8 @@
-fun main (args: Array<String>) {
-    for (i in 1..10) {
-        val fortuneCookie = getFortuneCookie(getBirthday())
+fun main () {
+    var fortuneCookie = ""
+    while(!fortuneCookie.contains("Take it easy")) {
+        fortuneCookie = getFortuneCookie(getBirthday())
         println(fortuneCookie)
-        if ("Take it easy and enjoy life".contentEquals(fortuneCookie)) {
-            break;
-        }
     }
 }
 

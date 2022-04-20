@@ -1,5 +1,7 @@
-fun main(args: Array<String>) {
+fun main() {
+    print("What's your mood today? ")
     println(whatShouldIDoToday(readLine()!!))
+    print("What's your mood today? ")
     println(whatShouldIDoToday(readLine()!!, "rainy"))
 }
 
