@@ -19,16 +19,15 @@ fun randomDay(random: Random): String {
 }
 
 fun fishFood(day: String): String {
-    var food = "fasting"
-    when (day) {
-        "Mo" -> food = "flakes"
-        "Tue" -> food = "pellets"
-        "Wed" -> food = "redworms"
-        "Thu" -> food = "granules"
-        "Fri" -> food = "mosquitos"
-        "Sat" -> food = "lettuces"
-        "Sun" -> food = "plankton"
+    return when (day) {
+        "Mo" -> "flakes"
+        //"Tue" -> "pellets" -> removed for reaching the else branch
+        "Wed" -> "redworms"
+        "Thu" -> "granules"
+        "Fri" -> "mosquitos"
+        //"Sat" -> "lettuces" -> removed for reaching the else branch
+        "Sun" -> "plankton"
+        else -> "fasting"
     }
-    return food
 }
 
