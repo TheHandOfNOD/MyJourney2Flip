@@ -21,5 +21,5 @@ fun practiceWithCollections1() {
 
     val moreBooks = mutableMapOf("William Shakespeare" to allBooks)
     println(moreBooks.getOrPut("Rowling"){setOf("Harry Potter 1", "Harry Potter 2")})
-    
+
 }
