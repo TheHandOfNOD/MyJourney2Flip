@@ -1,8 +1,12 @@
 package spicetesting
 
-class SimpleSpice {
-    val name: String = "curry"
-    val spiciness: String = "mild"
-    val heat: Int
-        get() = if (spiciness == "mild") 5 else 0
+fun main() {
+    println(SimpleSpice("curry", "none", GoldSpiceColor))
+}
+
+class SimpleSpice(name: String, spiciness: String, color: SpiceColor): Spice(name, spiciness, color) {
+
+    override fun prepareSpice() {
+        TODO("Not yet implemented")
+    }
 }

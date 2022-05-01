@@ -3,7 +3,7 @@ package spicetesting
 fun main(args: Array<String>) {
 
 }
-abstract class Spice(val name: String, val spiciness: String = "mild", color: SpiceColor) : SpiceColor by color {
+sealed class Spice(val name: String, val spiciness: String = "mild", color: SpiceColor) : SpiceColor by color {
     val heat: Int
         get() {
             return when (spiciness) {
@@ -39,9 +39,16 @@ interface Grinder {
 }
 
 interface SpiceColor {
-    val color: String
+    val color: Color
 }
 
 object GoldSpiceColor : SpiceColor {
-    override var color = "gold"
+    override var color = Color.YELLOW
+}
+
+enum class Color(rgb: Int) {
+    RED(0XFF0000),
+    GREEN(0x00FF00),
+    BLUE(0x0000FF),
+    YELLOW(0xFFFF00)
 }

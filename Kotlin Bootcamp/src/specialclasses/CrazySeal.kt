@@ -1,4 +1,4 @@
 package specialclasses
 
-class CrazySeal {
+class CrazySeal() : Seal() {
 }
