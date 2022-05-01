@@ -1,6 +1,9 @@
 package spicetesting
 
-class Spice (var name: String, var spiciness: String = "mild") {
+fun main(args: Array<String>) {
+
+}
+abstract class Spice(val name: String, val spiciness: String = "mild", color: SpiceColor) : SpiceColor by color {
     val heat: Int
         get() {
             return when (spiciness) {
@@ -17,5 +20,28 @@ class Spice (var name: String, var spiciness: String = "mild") {
         println("Spice[name: $name, spiciness: $spiciness, heat: $heat")
     }
 
-    fun makeSalt() = Spice("salt", "mild")
+    abstract fun prepareSpice()
+}
+
+class Curry (name: String, spiciness: String, color: SpiceColor = GoldSpiceColor) : Spice(name, spiciness, color), Grinder {
+
+
+    override fun prepareSpice() {
+        grind()
+    }
+    override fun grind() {
+        println("grind by Curry")
+    }
+}
+
+interface Grinder {
+    fun grind()
+}
+
+interface SpiceColor {
+    val color: String
+}
+
+object GoldSpiceColor : SpiceColor {
+    override var color = "gold"
 }
