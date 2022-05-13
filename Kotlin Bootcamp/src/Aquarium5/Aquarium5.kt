@@ -29,6 +29,6 @@ fun fishExamples() {
   After the colon the "receiver" object is defined -> that's the class which is extended
   After the "->" the return is defined, in this case "Unit" is used because nothing is returned
  */
-fun myWith(name: String, block: String.() -> Unit) {
+inline fun myWith(name: String, block: String.() -> Unit) {
     name.block()
 }
