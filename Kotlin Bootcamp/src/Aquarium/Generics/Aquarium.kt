@@ -19,22 +19,43 @@ class LakeWater: WaterSupply(true) {
         needsProcessed = false
     }
 }
-class Aquarium<T: WaterSupply>(val waterSupply: T) // by default <T> means <T: Any?>
+//declaration site variance: out types are type parameters that only ever occur in return values of function or on val properties
+class Aquarium<out T: WaterSupply>(val waterSupply: T) // by default <T> means <T: Any?>
 {
-    fun addWater() {
-        check(!waterSupply.needsProcessed) { "water supply needs processed" }
+    fun addWater(cleaner: Cleaner<T>) {
+        if(waterSupply.needsProcessed) {
+            cleaner.clean(waterSupply)
+        }
         println("adding water from $waterSupply")
     }
 }
 
-fun genericExample() {
-    val aquarium = Aquarium(TapWater())
-    aquarium.waterSupply.addChemicalCleaners()
-//
-//    val aquarium2 = Aquarium("string")
-//    println(aquarium2.waterSupply)
+inline fun<reified R: WaterSupply> Aquarium<*>.hasWaterSupplyOfType() = waterSupply is R
 
-    val aquarium4 = Aquarium(LakeWater())
-    aquarium4.waterSupply.filter()
-    aquarium4.addWater()
+fun <T: WaterSupply> isWaterClean(aquarium: Aquarium<T>) {
+    println("aquarium water is clean: ${aquarium.waterSupply.needsProcessed}")
+}
+
+inline fun <reified T: WaterSupply> WaterSupply.isOfType() = this is T
+
+interface Cleaner<in T: WaterSupply> {
+    fun clean(waterSupply: T)
+}
+
+class TapWaterCleaner: Cleaner<TapWater> {
+    override fun clean(waterSupply: TapWater) {
+        waterSupply.addChemicalCleaners()
+    }
+}
+
+fun addItemTo(aquarium: Aquarium<WaterSupply>) = println("item added")
+
+fun genericExample() {
+    val cleaner = TapWaterCleaner()
+    val aquarium = Aquarium(TapWater())
+    aquarium.addWater(cleaner)
+    isWaterClean(aquarium)
+    aquarium.hasWaterSupplyOfType<TapWater>() // true
+    aquarium.waterSupply.isOfType<LakeWater>() // false
+
 }
