@@ -22,15 +22,41 @@ class Game {
         path.clear()
         false
     }
+
+    fun move(where: () -> Boolean) {
+        where.invoke()
+    }
+
+    fun makeMove(direction: String?): Boolean {
+        var isContinue = false
+        when (direction) {
+            "n" -> {
+                move(north)
+                isContinue = true
+            };
+            "s" -> {
+                move(south)
+                isContinue = true
+            }
+            "e" -> {
+                move(east)
+                isContinue = true
+            }
+            "w" -> {
+                move(west)
+                isContinue = true
+            }
+            else -> move(end)
+        }
+        return isContinue
+    }
 }
 
 fun main () {
     val game: Game = Game()
-    println(game.path)
-    game.north()
-    game.east()
-    game.south()
-    game.west()
-    game.end()
-    println(game.path)
+    var isRun = true
+    while (isRun) {
+        print("Enter a direction (n/s/e/w): ")
+        isRun = game.makeMove(readLine())
+    }
 }
