@@ -1,0 +1,25 @@
+micronaut:
+  application:
+    name: bestellservice
+  router:
+    static-resources:
+      swagger:
+        paths: classpath:META-INF/swagger
+        mapping: /swagger/**
+      swagger-ui:
+        paths: classpath:META-INF/swagger/views/swagger-ui
+        mapping: /swagger-ui/**
+tracing:
+  jaeger:
+    enabled: true
+    sampler:
+      probability: 0.1
+consul:
+  client:
+    defaultZone: ${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}
+    registration:
+      enabled: true
+netty:
+  default:
+    allocator:
+      max-order: 3
