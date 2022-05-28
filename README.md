@@ -28,13 +28,22 @@ I executed the command for the micronaut project setup with kotlin and gradle an
 
 I think that additional to that project I will launch some experimental "projects" just to try some things out.
 
+Update after a longer period of time, because I made some vacations to get my head free for the new journey.
+In the meantime I finished the course "Kotlin Bootcamp for Programmers" but I will rewatch the lessons again soon.
+
+The other 2 courses will be skipped first because they focus solely on android and I am more interested in micronaut.
+I found another course from predic8 and since I think that these guys are pretty good, I will do that one first (see link below)
+
+But to be honest I have to get my docker setup running first, to be able to complete the predic8 course. 
+
 ### The Google Kotlin Course
 After additional research I found the following courses:
 - [Kotlin Bootcamp for Programmers](https://classroom.udacity.com/courses/ud9011)
 - [Developing Android Apps with Kotlin](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)
 - [Advanced Android with Kotlin](https://www.udacity.com/course/advanced-android-with-kotlin--ud940)
 
-I will now complete these courses at first and then I will start developing my own personal full stack project.
+### predic8
+- [Micronaut Microservices](https://www.predic8.de/micronaut-microservices-video.htm)
 
 # Helpful links and documentation
 ## Hexagonal architecture
