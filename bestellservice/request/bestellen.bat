@@ -1,0 +1,1 @@
+curl -X POST -H "Content-type: application/json" --data " {\"positionen\": [{ \"menge\":3, \"artikel\":\"Kaffee\"}, { \"menge\":1, \"artikel\":\"Tee\"}]}" http://localhost:8080/bestellung
