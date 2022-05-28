@@ -46,7 +46,7 @@ After additional research I found the following courses:
 - [Micronaut Microservices](https://www.predic8.de/micronaut-microservices-video.htm)
 
 ### docker
-- [Docker tutorial](http://localhost/tutorial/our-application/)
+- [Docker tutorial](http://localhost/tutorial/our-application/): To reach it execute: D:\Arbeit\IdeaProjects\MyJourney2Flip\docker-app>docker run -d -p 80:80 docker/getting-started
 
 # Helpful links and documentation
 ## Hexagonal architecture
