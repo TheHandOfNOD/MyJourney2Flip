@@ -39,11 +39,13 @@ But to be honest I have to get my docker setup running first, to be able to comp
 ### The Google Kotlin Course
 After additional research I found the following courses:
 - [Kotlin Bootcamp for Programmers](https://classroom.udacity.com/courses/ud9011)
-- [Developing Android Apps with Kotlin](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)
-- [Advanced Android with Kotlin](https://www.udacity.com/course/advanced-android-with-kotlin--ud940)
 
 ### predic8
 - [Micronaut Microservices](https://www.predic8.de/micronaut-microservices-video.htm)
+
+### Baeldung
+Since Baeldung is always a good idea to try out, I will write the clean architecture example in kotlin with gradle
+https://www.baeldung.com/spring-boot-clean-architecture
 
 ### docker
 - [Docker tutorial](http://localhost/tutorial/our-application/): To reach it execute: D:\Arbeit\IdeaProjects\MyJourney2Flip\docker-app>docker run -d -p 80:80 docker/getting-started
