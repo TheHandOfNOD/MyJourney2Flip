@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut:micronaut-router:3.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-router/3.5.0/92421af3ce97c7446cda6ea87609fe8ac80e67ca/micronaut-router-3.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-router/3.5.0/7b82090501e11b5c38ae51c49c59fdaaf29c0cf9/micronaut-router-3.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

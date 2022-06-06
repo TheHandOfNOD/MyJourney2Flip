@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hello Kotlin/Hello Kotlin.iml" filepath="$PROJECT_DIR$/Hello Kotlin/Hello Kotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kotlin Bootcamp/Kotlin Bootcamp.iml" filepath="$PROJECT_DIR$/Kotlin Bootcamp/Kotlin Bootcamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyBabyLution/MyBabyLution.iml" filepath="$PROJECT_DIR$/MyBabyLution/MyBabyLution.iml" />
       <module fileurl="file://$PROJECT_DIR$/docker-app/docker-app.iml" filepath="$PROJECT_DIR$/docker-app/docker-app.iml" />
     </modules>
   </component>

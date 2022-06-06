@@ -44,5 +44,4 @@
       </configuration>
     </facet>
   </component>
-  <component name="TestModuleProperties" production-module="FunWithGradle.app.main" />
 </module>

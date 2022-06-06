@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.jaegertracing:jaeger-core:1.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.jaegertracing/jaeger-core/1.8.0/e517e6c1aff7cc675f688c514041a7390aefcb7d/jaeger-core-1.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.jaegertracing/jaeger-core/1.8.0/2aa69675c5c8799ef7ffb156c012a759936ca557/jaeger-core-1.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

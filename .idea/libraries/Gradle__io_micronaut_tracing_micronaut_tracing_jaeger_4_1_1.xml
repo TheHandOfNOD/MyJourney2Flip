@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut.tracing:micronaut-tracing-jaeger:4.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.tracing/micronaut-tracing-jaeger/4.1.1/fd6de89e42f9bac4ba5abb9c5b5b74f3ad0d7e52/micronaut-tracing-jaeger-4.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.tracing/micronaut-tracing-jaeger/4.1.1/fe236121e62300e0176bea1aef08082bbdde2f7e/micronaut-tracing-jaeger-4.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

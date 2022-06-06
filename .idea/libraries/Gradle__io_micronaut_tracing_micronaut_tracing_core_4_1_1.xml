@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut.tracing:micronaut-tracing-core:4.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.tracing/micronaut-tracing-core/4.1.1/eb127714174016a38fd1626768d97e294b9c4c68/micronaut-tracing-core-4.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.tracing/micronaut-tracing-core/4.1.1/74ffbac48be42661e948fb218e418c184a91bdc3/micronaut-tracing-core-4.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

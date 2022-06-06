@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.jaegertracing:jaeger-thrift:1.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.jaegertracing/jaeger-thrift/1.8.0/3734d720b8f71028d12081bb74b312b237b9f8b2/jaeger-thrift-1.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.jaegertracing/jaeger-thrift/1.8.0/6276ede85ab8fd5ad84b215204aaf763c108d41/jaeger-thrift-1.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

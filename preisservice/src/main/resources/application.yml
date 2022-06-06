@@ -1,7 +1,19 @@
 micronaut:
   application:
     name: preisservice
+  server:
+    port: 8081
 netty:
   default:
     allocator:
       max-order: 3
+
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+
+tracing:
+  jaeger:
+    enabled: true
