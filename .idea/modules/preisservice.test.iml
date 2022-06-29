@@ -20,8 +20,8 @@
               <option value="$MODULE_DIR$/../../preisservice/build/libs/preisservice-0.1.jar" />
             </array>
           </option>
-          <option name="languageVersion" value="1.5" />
-          <option name="apiVersion" value="1.5" />
+          <option name="languageVersion" value="1.6" />
+          <option name="apiVersion" value="1.6" />
           <option name="pluginOptions">
             <array>
               <option value="plugin:org.jetbrains.kotlin.allopen:annotation=io.micronaut.aop.Around" />

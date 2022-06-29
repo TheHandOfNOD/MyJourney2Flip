@@ -13,7 +13,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -33,25 +32,23 @@
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/MyChildTracker" />
-        <option name="gradleHome" value="C:/Gradle/gradle-7.4.2" />
-        <option name="gradleJvm" value="11" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/MyChildTracker" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/SimpleCleanArchitectureExampleWithGradle" />
         <option name="gradleHome" value="C:/Gradle/gradle-7.4.2" />
         <option name="gradleJvm" value="Kotlin SDK" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/SimpleCleanArchitectureExampleWithGradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/account-service-master" />
+        <option name="gradleHome" value="C:/Gradle/gradle-7.4.2" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/account-service-master" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -65,6 +62,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/bestellservice" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mychild" />
+        <option name="gradleHome" value="C:/Gradle/gradle-7.4.2" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mychild" />
           </set>
         </option>
       </GradleProjectSettings>

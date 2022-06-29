@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: mychild
+  security:
+    authentication: session
+    redirect:
+      login-success: /
+      login-failure: /login/authFailed
+netty:
+  default:
+    allocator:
+      max-order: 3
